@@ -1,0 +1,21 @@
+{
+  "name": "ai-naming",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 起名平台 —— Vercel Node 函数 + 流式输出 + Supabase 历史记录",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "vercel": "^39.0.0"
+  }
+}
